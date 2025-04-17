@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 # Create a DataFrame
 data = {
@@ -9,5 +10,15 @@ data = {
 
 df = pd.DataFrame(data)
 
-# Save to an Excel file
-df.to_excel("grocery_expenses.xlsx", index=False)
+# Define the full path to the 'day 1' folder
+folder_path = r"C:\Users\ADMIN\Desktop\github\ojt_preparation\ojt_preparation\day 1"
+
+# Ensure the directory exists, create if not
+if not os.path.exists(folder_path):
+    os.makedirs(folder_path)
+
+# Save to an Excel file in the specified folder
+file_path = os.path.join(folder_path, "grocery_expenses.xlsx")
+df.to_excel(file_path, index=False)
+
+print(f"Excel file saved to: {file_path}")
