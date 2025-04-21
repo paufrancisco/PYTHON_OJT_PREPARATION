@@ -3,8 +3,11 @@ class Person:
         self.name = name
         self.age = age
     def greet(self):
-        print(f"Hello, my name is {self.name} and I am {self.age} years old")
+        print(f"Your name is {self.name} and your age is {self.age}")
 
-person1 = Person("Paulo", 20)
+
+name = input("Enter your name : ")
+age = int(input("Enter your age: "))
+
+person1 = Person(name,age)
 person1.greet()
-        
