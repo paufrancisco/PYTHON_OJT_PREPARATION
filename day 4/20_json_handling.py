@@ -12,6 +12,5 @@ json_string = json.dumps(data)
 print("JSON string:", json_string)
 
 # convert back to python dict
-
 parsed_data = json.loads(json_string)
-print("Parsed data: ", parsed_data)
+print("Parsed data:",parsed_data)
