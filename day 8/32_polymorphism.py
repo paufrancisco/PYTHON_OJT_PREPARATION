@@ -14,5 +14,5 @@ def SalaryCalc(employee, days):
 fte = FullTimeEmployee()
 pte = PartTimeEmployee()
 
-SalaryCalc(fte, 250)
-SalaryCalc(pte, 250)
+SalaryCalc(fte, 350)
+SalaryCalc(pte, 2350)
