@@ -18,8 +18,8 @@ class BankAccount:
 account = BankAccount(1000)
 
 print(f"Old Balance: {account.get_balance()}")
-account.deposit(1000)
-account.withdraw(1000)
-account.withdraw(1000)
+account.deposit(4000)
+account.withdraw(4000)
+account.withdraw(4000)
 account.withdraw(200)
 print(f"New Balance: {account.get_balance()}")
