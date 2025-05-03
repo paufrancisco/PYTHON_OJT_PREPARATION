@@ -9,6 +9,6 @@ class Book:
         return len(self.title)
 
 # Usage
-book = Book("Python 101")
+book = Book("Python 201")
 print(book)         # Output: Book: Python 101
 print(len(book))    # Output: 10
