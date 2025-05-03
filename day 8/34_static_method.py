@@ -3,4 +3,4 @@ class Math:
     def add(x,y):
         return x+y
     
-print(f"Sum: {Math.add(7,5)}")
+print(f"Sum: {Math.add(7,6)}")
