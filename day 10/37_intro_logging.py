@@ -7,4 +7,4 @@ def divide(a, b):
     logging.info(f"Dividing {a} by {b}")
     return a / b
 
-print(divide(10, 2))  # Logs and prints 5.0
+print(divide(10, 5))  # Logs and prints 5.0
